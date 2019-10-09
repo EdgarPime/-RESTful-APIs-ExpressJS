@@ -58,7 +58,7 @@ router.put('/v1/cars/:id', function(req, res, next) {
   car.tiempo=req.body.tiempo;
   car.fuerza= req.body.fuerza;
   car.tipo= req.body.tipo;
-  res.status(204).send(car);
+  res.status(204).send();
   
 });
 
